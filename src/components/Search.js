@@ -6,7 +6,6 @@ class Search extends  Component{
     e.preventDefault()
     const value=this.searchRef.current.value
     this.props.search(value)
-
   }
 
   render(){
